@@ -162,7 +162,7 @@ Emacsのカスタマイズ例
 (setq message-log-max 8192)
 #+end_src
 
-** さらなるカスタマイズ例
+d** さらなるカスタマイズ例
 
 細かな挙動を自分好みにカスタマイズ = elisp の関数を書く
 #+begin_src emacs-lisp
