@@ -7,16 +7,9 @@
 (emacs-version)
 #+end_src
 
-#+RESULTS:
-: GNU Emacs 29.4 (build 1, aarch64-apple-darwin24.5.0, Carbon Version 170 AppKit 2575.6)
-:  of 2025-06-10
-
 #+begin_src emacs-lisp
 (emacs-uptime)
 #+end_src
-
-#+RESULTS:
-: 7 days, 1 hour, 12 minutes, 36 seconds
 
 * 自己紹介
 
@@ -49,6 +42,8 @@ Note:
     - ほぼ全ての操作が Elisp でコントロール可能で、既存の関数を上書きして挙動を変えることもできる
 
   - つまり、どこまででもカスタマイズ可能
+    - 自分「が」快適な環境をどこまでも追求できる = 属人化
+
 #+begin_src mermaid :file emacs.png
 flowchart BT
     subgraph OS[オペレーティングシステム]
@@ -118,15 +113,15 @@ flowchart BT
   #+end_src
 
   #+RESULTS:
+  #+ATTR_ORG: :width 900
   [[file:operation.png]] 
 
 - デモ内容
   - ファイル操作 dired & tramp
-  - magit による git操作
   - vterm & claude でAIコーディング
   - vterm & consult-line-multi で複数サーバー
   - gptel & org-mode & gemini でタスク管理 & AIサポート
-  - scratch バッファ活用術(計算機, 連番生成など)
+  - magit による git操作
   
 * Elispがもたらす無限の自由と「沼」
 
@@ -139,7 +134,7 @@ Emacsのカスタマイズ例
   M-x list-packages
 #+end_quote
 
-選択してインストール(一番簡単な方法)
+選択してインストール(一番簡単な方法) ↓ (画像)
 [[file:packages.png]]
 
 ** 各種設定(標準動作やパッケージの挙動)
@@ -201,7 +196,7 @@ Gemini 曰く・・・
 
 - 正解はない
   - 昨日は正解でも、今日になると挙動が気になってくる
-  - 永久に試行錯誤
+  - 永久に試行錯誤できる
 
 - ちょっと仕事に乗れない時にElispいじり
   - 以前から気になっていた挙動を調整に挑戦
@@ -226,7 +221,8 @@ Gemini 曰く・・・
 
 - 大標準化時代にあえて反逆のEmacs使いになってみませんか？
 - 「ヤクの毛刈り」を楽しみ、そこから学びを得る
-- そして人生の「相棒」を育てる
+- そして人生の「Emacs(相棒)」を育てる
+
 * EOL
 
 
