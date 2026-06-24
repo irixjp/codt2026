@@ -8,16 +8,9 @@
 (emacs-version)
 #+end_src
 
-#+RESULTS:
-: GNU Emacs 29.4 (build 1, aarch64-apple-darwin24.5.0, Carbon Version 170 AppKit 2575.6)
-:  of 2025-06-10
-
 #+begin_src emacs-lisp
 (emacs-uptime)
 #+end_src
-
-#+RESULTS:
-: 3 hours, 20 minutes, 36 seconds
 
 * 自己紹介
 
@@ -165,7 +158,7 @@ Emacsのカスタマイズ例
 (setq message-log-max 8192)
 #+end_src
 
-d** さらなるカスタマイズ例
+** さらなるカスタマイズ例
 
 細かな挙動を自分好みにカスタマイズ = elisp の関数を書く
 #+begin_src emacs-lisp
