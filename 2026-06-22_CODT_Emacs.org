@@ -3,13 +3,21 @@
 #+ABSTRACT: AI全盛の2026年、あえて環境を「徹底的に属人化」し、圧倒的な効率と快適さを手に入れるEmacs活用術を提案します。複雑なマルチクラウドをAIとLispで手懐け、「個の力」を最大化。組織の標準化に埋没せず、エンジニアとしての尊厳を取り戻すための生存戦略とは？効率化の先にあるのは「究極の環境」か、単なる「沼」か。実利と狂気が交錯するカスタマイズの旅へ、皆様を招待します。
 
 * はじめに
+
 #+begin_src emacs-lisp
 (emacs-version)
 #+end_src
 
+#+RESULTS:
+: GNU Emacs 29.4 (build 1, aarch64-apple-darwin24.5.0, Carbon Version 170 AppKit 2575.6)
+:  of 2025-06-10
+
 #+begin_src emacs-lisp
 (emacs-uptime)
 #+end_src
+
+#+RESULTS:
+: 3 hours, 20 minutes, 36 seconds
 
 * 自己紹介
 
@@ -39,7 +47,7 @@ Note:
 
   - そこで Emacs という選択
     - Emacs とは "Emacs Lisp(Elisp)実行環境の上にエディタ機能が実装されている"
-    - ほぼ全ての操作が Elisp でコントロール可能で、既存の関数を上書きして挙動を変えることもできる
+    - ほぼ全ての操作が Elisp でコントロール可能
 
   - つまり、どこまででもカスタマイズ可能
     - 自分「が」快適な環境をどこまでも追求できる = 属人化
