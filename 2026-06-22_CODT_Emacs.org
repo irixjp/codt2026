@@ -8,9 +8,16 @@
 (emacs-version)
 #+end_src
 
+#+RESULTS:
+: GNU Emacs 29.4 (build 1, aarch64-apple-darwin24.5.0, Carbon Version 170 AppKit 2575.6)
+:  of 2025-06-10
+
 #+begin_src emacs-lisp
 (emacs-uptime)
 #+end_src
+
+#+RESULTS:
+: 5 hours, 34 minutes, 22 seconds
 
 * 自己紹介
 
